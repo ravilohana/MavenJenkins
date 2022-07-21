@@ -1,1 +1,3 @@
+mavenforjenkins\APITest.class
+org\selenium\openCartTest\OpencartTest.class
 mavenforjenkins\UITest.class
