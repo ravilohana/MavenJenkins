@@ -1,9 +1,15 @@
-pipeline 
-{
+pipeline {
     agent any
 
     stages 
     {
+        stage('Unit Test') 
+        {
+            steps 
+            {
+                echo 'Unit App'
+            }
+        }
         stage('Build') 
         {
             steps 
@@ -11,6 +17,7 @@ pipeline
                 echo 'Build App'
             }
         }
+
 
         stage('Test') 
         {
@@ -31,11 +38,16 @@ pipeline
 
     post
     {
+        always
+        {
+                    emailext body: '''This is Jenkins Pipeline
+        ''', subject: 'Pipeline Status: ${JOB_NAME}-${BUILD_NUMBER}', to: 'automatesmb100@gmail.com'
+        }
 
-    	always
-    	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'automatesmb100@gmail.com'
-    	}
-
+        failure
+        {
+            emailext body: '''Build is failed due to some reason
+''', subject: 'Failed Pipeline Status: ${JOB_NAME}-${BUILD_NUMBER}', to: 'automatesmb100@gmail.com'
+        } 
     }
 }
