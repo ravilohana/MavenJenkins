@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-21T13:10:56 IST" name="Suite" finished-at="2022-07-21T13:11:07 IST" duration-ms="10504">
+  <suite started-at="2022-07-25T18:40:42 IST" name="Suite" finished-at="2022-07-25T18:41:48 IST" duration-ms="65088">
     <groups>
     </groups>
-    <test started-at="2022-07-21T13:10:56 IST" name="OrangeCRM" finished-at="2022-07-21T13:11:03 IST" duration-ms="7181">
+    <test started-at="2022-07-25T18:40:42 IST" name="OrangeCRM" finished-at="2022-07-25T18:41:44 IST" duration-ms="61554">
       <class name="mavenforjenkins.UITest">
-        <test-method signature="startBrowser(java.lang.String)[pri:0, instance:mavenforjenkins.UITest@683dbc2c]" started-at="2022-07-21T13:10:56 IST" name="startBrowser" finished-at="2022-07-21T13:11:03 IST" duration-ms="7140" status="PASS">
+        <test-method signature="startBrowser(java.lang.String)[pri:0, instance:mavenforjenkins.UITest@683dbc2c]" started-at="2022-07-25T18:40:42 IST" name="startBrowser" finished-at="2022-07-25T18:41:44 IST" duration-ms="61523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- startBrowser -->
       </class> <!-- mavenforjenkins.UITest -->
     </test> <!-- OrangeCRM -->
-    <test started-at="2022-07-21T13:11:03 IST" name="OpenCart" finished-at="2022-07-21T13:11:07 IST" duration-ms="3269">
+    <test started-at="2022-07-25T18:41:44 IST" name="OpenCart" finished-at="2022-07-25T18:41:48 IST" duration-ms="3456">
       <class name="org.selenium.openCartTest.OpencartTest">
-        <test-method signature="openCartApp(java.lang.String)[pri:0, instance:org.selenium.openCartTest.OpencartTest@186f8716]" started-at="2022-07-21T13:11:03 IST" name="openCartApp" finished-at="2022-07-21T13:11:07 IST" duration-ms="3251" status="PASS">
+        <test-method signature="openCartApp(java.lang.String)[pri:0, instance:org.selenium.openCartTest.OpencartTest@186f8716]" started-at="2022-07-25T18:41:44 IST" name="openCartApp" finished-at="2022-07-25T18:41:48 IST" duration-ms="3456" status="PASS">
           <params>
             <param index="0">
               <value>
