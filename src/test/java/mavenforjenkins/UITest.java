@@ -3,6 +3,7 @@ package mavenforjenkins;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -25,6 +26,11 @@ public class UITest {
 		else if(browserName.contains("Edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
+			
+		}
+		else if(browserName.contains("Firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
 			
 		}
 

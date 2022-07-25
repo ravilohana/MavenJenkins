@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-25T18:40:42 IST" name="Suite" finished-at="2022-07-25T18:41:48 IST" duration-ms="65088">
+  <suite started-at="2022-07-25T23:07:47 IST" name="Suite" finished-at="2022-07-25T23:08:06 IST" duration-ms="18837">
     <groups>
     </groups>
-    <test started-at="2022-07-25T18:40:42 IST" name="OrangeCRM" finished-at="2022-07-25T18:41:44 IST" duration-ms="61554">
+    <test started-at="2022-07-25T23:07:47 IST" name="OrangeCRM" finished-at="2022-07-25T23:07:58 IST" duration-ms="11344">
       <class name="mavenforjenkins.UITest">
-        <test-method signature="startBrowser(java.lang.String)[pri:0, instance:mavenforjenkins.UITest@683dbc2c]" started-at="2022-07-25T18:40:42 IST" name="startBrowser" finished-at="2022-07-25T18:41:44 IST" duration-ms="61523" status="PASS">
+        <test-method signature="startBrowser(java.lang.String)[pri:0, instance:mavenforjenkins.UITest@683dbc2c]" started-at="2022-07-25T23:07:47 IST" name="startBrowser" finished-at="2022-07-25T23:07:58 IST" duration-ms="11320" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Firefox]]>
               </value>
             </param>
           </params>
@@ -20,13 +20,13 @@
         </test-method> <!-- startBrowser -->
       </class> <!-- mavenforjenkins.UITest -->
     </test> <!-- OrangeCRM -->
-    <test started-at="2022-07-25T18:41:44 IST" name="OpenCart" finished-at="2022-07-25T18:41:48 IST" duration-ms="3456">
+    <test started-at="2022-07-25T23:07:58 IST" name="OpenCart" finished-at="2022-07-25T23:08:06 IST" duration-ms="7411">
       <class name="org.selenium.openCartTest.OpencartTest">
-        <test-method signature="openCartApp(java.lang.String)[pri:0, instance:org.selenium.openCartTest.OpencartTest@186f8716]" started-at="2022-07-25T18:41:44 IST" name="openCartApp" finished-at="2022-07-25T18:41:48 IST" duration-ms="3456" status="PASS">
+        <test-method signature="openCartApp(java.lang.String)[pri:0, instance:org.selenium.openCartTest.OpencartTest@186f8716]" started-at="2022-07-25T23:07:58 IST" name="openCartApp" finished-at="2022-07-25T23:08:06 IST" duration-ms="7400" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[Firefox]]>
               </value>
             </param>
           </params>
